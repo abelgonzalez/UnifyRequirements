@@ -1,3 +1,5 @@
+🙋‍♂️ Hi there, currently I'm updating this file 🧑‍💻
+
 # Projeto: 
 UnifyRequirements
 
@@ -11,7 +13,7 @@ Demais dependencias no requeriments.txt
 ## Cómo usá-lo?
 
 1- Definir na linha 51 do script main.py o PATH do qual quer ser gerado os requeriments.
-DIR = r'C:\Users\amondejar\Desktop\Mergulho\mergulho-ds\experimental'
+DIR = r'C:\Users\amondejar\Desktop\experimental'
 
 2- Executar o script.
 
