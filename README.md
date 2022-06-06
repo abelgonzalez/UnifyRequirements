@@ -1,5 +1,5 @@
 <h1 align="center">
-   <p> Unify Requirements 🧑‍🎓👩‍🎓 </p>  
+   <p> Unify Requirements 🐍</p>  
 </h1>
 
 <br>
