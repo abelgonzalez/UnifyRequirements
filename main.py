@@ -1,11 +1,20 @@
 import os
 
 
-def read_dependences_list(directory):
+def CreateRequirementsList(directoryPath: str):
+    '''
+    Makes a list of requirements libraries given a Python project path
+
+            Parameters:
+                    directoryPath (str): A string path
+
+            Returns:
+                    content (list): A list with all requirements libraries
+    '''
     # list to save all dependencies from all files
     content = []
 
-    for r, d, f in os.walk(directory):
+    for r, d, f in os.walk(directoryPath):
         for file in f:
             if file.endswith("requirements.txt"):
                 print(os.path.join(r, file))
@@ -38,17 +47,26 @@ def read_dependences_list(directory):
     return content
 
 
-def save_dependences_list(dep_list, export_dir):
-    # saving in dependences.txt file
-    with open("dependences.txt", "w") as output:
-    #with open(export_dir + "\dependences.txt", "w") as output:
-        for row in dep_list:
+def SaveRequirementsList(requirementsList: list, exportList: str):
+    '''
+    Saves the list of requirements.txt to a specified path.
+
+            Parameters:
+                    requirementsList (list): A string list
+                    exportList (str): A string path
+
+            Returns:
+                    Saves the requirements.txt file 
+    '''
+    # saving in requirements.txt file
+    with open(exportList + "\\requirements.txt", "w") as output:
+        for row in requirementsList:
             output.write(str(row) + '\n')
 
 
 if __name__ == '__main__':
-    DIR = r'C:\Users\abelg\Desktop\GeneratePDF'
+    DIR = r'C:\Users\abelg\GoDev\My Drive\Github'
+    EXPORT_DIR = r'C:\Users\abelg\GoDev\My Drive\Github\UnifyRequirements'
 
-    dep_list = read_dependences_list(DIR)
-
-    save_dependences_list(dep_list, DIR)
+    requirementsList = CreateRequirementsList(DIR)
+    SaveRequirementsList(requirementsList, EXPORT_DIR)
