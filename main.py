@@ -47,7 +47,7 @@ def save_dependences_list(dep_list, export_dir):
 
 
 if __name__ == '__main__':
-    DIR = r'C:\Users\amondejar\Desktop\Mergulho\mergulho-ds\experimental'
+    DIR = r'C:\Users\abelg\Desktop\GeneratePDF'
 
     dep_list = read_dependences_list(DIR)
 
