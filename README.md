@@ -21,7 +21,7 @@
 
 ---
 ## ✅ Main features
-- [x] Unify requirements.txt files
+- [x] Unify requirements.txt files in a single one.
 
 ---
 ## 🔧 Technology
