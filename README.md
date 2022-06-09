@@ -61,7 +61,6 @@ Download and install:
 
 ---
 ## 📝 License
-
 This project is under the MIT license. See the file <a href="https://github.com/abelgonzalez/UnifyRequirements/LICENSE">LICENCE</a> for more details.
 
 ---
