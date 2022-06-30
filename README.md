@@ -6,7 +6,7 @@
 
 <h1 align="center">
   <img 
-    src="./Doc/demo.gif"
+    src="./doc/demo.gif"
   />
 </h1>
 
