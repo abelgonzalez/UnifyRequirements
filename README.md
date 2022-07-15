@@ -12,7 +12,7 @@
 
 ---
 ## 🧾 About
-**UnifyRequirements** is a Python project to unify all requeriments.txt files of several projects in one single file. This project was developed because sometimes we have serval Python projects in the same folder and it is necessary to capture all dependences.txt files in one to migrate to a new computer or run several projects on a different computer.
+**UnifyRequirements** is a Python project to unify all requeriments.txt files of several projects in one single file. This project was developed because sometimes we have serval Python projects in the same folder and it is necessary to capture all dependences.txt files in one to migrate to a new computer or run several projects on a different computer. 
 
 ---
 ## 🕖 Versioning
